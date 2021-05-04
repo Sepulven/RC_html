@@ -1,0 +1,30 @@
+:root{
+    --gray: #c7c6c6;
+    --light-purple: #76617c;
+    --purple: #382843;
+    --black:  #000000;
+}
+
+header,nav{
+    display: flex;
+    position: relative;
+    background-color:var(--black); 
+    height: 15vh;
+}
+.center{
+    margin-left: 15%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+.icon{
+    position: relative;
+}
+@media (min-width: 1000px){
+    body{
+        background-color: white;
+    }
+}
