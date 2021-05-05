@@ -1,0 +1,85 @@
+:root{
+    --gray: #c7c6c6;
+    --light-purple: #76617c;
+    --purple: #382843;
+    --black:  #000000;
+    --green: #adf182;   
+    --red: #c9221e;
+}
+header,nav{
+    height: 10vh;
+    display: flex;
+    position: relative;
+    background-color:var(--black); 
+    justify-content: space-between;
+}
+.center{
+    margin-left: 15%;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.wrap{
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+}
+.first{
+    order: 1;
+    width: 100px;  
+    background-color: white;  
+}
+.second{
+    order: 2;
+    width: 100px; 
+    background-color: #9590bd;
+}
+.third{
+    order: 3;
+    width: 100px; 
+    background-color: var(--green);
+}
+
+/*  ********
+Responsividade do web site
+**********  */
+@media (max-width: 1000px){
+    body{
+        background-color: var(--purple)
+    }
+}
+
+
+/* ************ 
+Icon e animações 
+*************** */
+
+.icon{
+    position: relative;
+    animation: icon_animation 5s infinite ;
+}
+@keyframes icon_animation {
+    70%{
+        transform: translateX(-25%);
+    }
+    60%{
+        transform: translateX(0%);
+    }
+    50%{
+        transform: translateX(100%);
+    }
+    40%{
+        transform: translateX(75%);
+    }
+    30%{
+        transform: translateX(50%);
+    }
+    20%{
+        transform: translateX(25%);
+    }
+    10%{
+        transform: translateX(0%);
+    }
+
+}

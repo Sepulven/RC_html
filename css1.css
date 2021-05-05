@@ -1,0 +1,23 @@
+:root{
+    --gray: #c7c6c6;
+    --light-purple: #76617c;
+    --purple: #382843;
+    --black:  #000000;
+}
+*{ 
+    padding: 0%;
+    margin: 0;
+}
+body{
+    background-color: var(--light-purple);
+}
+h1{
+    color:rgb(238, 235, 44);
+    font-family: arial;
+    font-size: 5vh;
+    margin-left: 25%;
+}
+p{
+    font-size: 3vh;
+    color: rgb(50, 8, 88);
+}
